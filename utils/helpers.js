@@ -4,7 +4,6 @@ module.exports = {
     },
     format_plural: (word, amount) => {
         if (amount !== 1) {
-            console.log(`${word}s`);
             return `${word}s`;
         }
         return word;
